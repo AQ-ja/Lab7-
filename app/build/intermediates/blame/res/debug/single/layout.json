@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\resultados_fragment.xml",
+        "source": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\src\\main\\res\\layout\\resultados_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\question_fragment.xml",
+        "source": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\src\\main\\res\\layout\\question_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_question_fragment.xml",
+        "source": "C:\\Users\\Quezada\\Desktop\\Lab7apps-master\\Laboratorio7\\app\\src\\main\\res\\layout\\add_question_fragment.xml"
+    }
+]

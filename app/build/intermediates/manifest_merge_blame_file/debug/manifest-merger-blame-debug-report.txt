@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.laboratorio6"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\44b375e46d34bd4fcaf9ecb0f7ac1ab3\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:12:9-21:20
+22            android:name="com.example.laboratorio5.MainActivity"
+22-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:13:13-41
+23            android:label="@string/app_name"
+23-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:14:13-45
+24            android:theme="@style/AppTheme.NoActionBar" >
+24-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:15:13-56
+25            <intent-filter>
+25-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\Quezada\Desktop\Lab7apps-master\Laboratorio7\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <service
+32-->[androidx.room:room-runtime:2.2.3] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\9758610a56041fe90526c04f468f0c14\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+33            android:name="androidx.room.MultiInstanceInvalidationService"
+33-->[androidx.room:room-runtime:2.2.3] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\9758610a56041fe90526c04f468f0c14\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+34            android:exported="false" />
+34-->[androidx.room:room-runtime:2.2.3] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\9758610a56041fe90526c04f468f0c14\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+35
+36        <provider
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\66789b72678ff21086f00ec0ba7d2271\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+37            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\66789b72678ff21086f00ec0ba7d2271\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+38            android:authorities="com.example.laboratorio6.lifecycle-process"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\66789b72678ff21086f00ec0ba7d2271\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+39            android:exported="false"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\66789b72678ff21086f00ec0ba7d2271\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+40            android:multiprocess="true" />
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Quezada\.gradle\caches\transforms-2\files-2.1\66789b72678ff21086f00ec0ba7d2271\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+41    </application>
+42
+43</manifest>

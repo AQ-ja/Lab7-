@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/eliminar_encuesta"
+        android:orderInCategory="100"
+        android:title="Eliminar Encuesta"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/eliminar_preguntas"
+        android:orderInCategory="100"
+        android:title="Eliminar Preguntas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/eliminar_respuestas"
+        android:orderInCategory="100"
+        android:title="Eliminar Respuestas"
+        app:showAsAction="never" />
+</menu>
